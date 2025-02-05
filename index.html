@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+      body {
+        background-color: #262626;
+      }
+      h1 {
+        color: white;
+        font-family:Arial, Helvetica, sans-serif ;
+        font-weight: bold;
+        text-align: center;
+        align-self: flex-start;
+      }
+      .yellow {
+        color: gold;
+      }
+      nav {
+        border: 5px solid gold;
+        background-color: gold;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        height: 50px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      nav > ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding-right: 20px;
+        
+      }
+
+      nav > ul > li {
+        color: #262626;
+      }
+
+      li > a {
+       color: inherit;
+       text-decoration: none;
+      }
+
+      nav > ul > li:hover {
+       background-color:#1b1b32;
+       color: white;
+       cursor: pointer;
+      }
+
+      h2 {
+        color: white;
+        margin: 20px;
+        font-size: 5rem;
+      }
+      p {
+        color: white;
+      }
+      .name {
+        color: orange;
+        margin: 20px;
+        font-size: 60px;
+      }
+      .about {
+        font-size: 15px;
+        margin: 20px;
+        font-size: 40px;
+      }
+      .first-container {
+        width: ;
+        background-color: #1A3073;
+        border-radius: 15px;
+        margin: 20px;
+        padding: 10px;
+
+      }
+      .container {
+        border: 5px solid orangered;
+        margin: 40px 0;
+        border-radius: 15px;
+      }
+
+      .box-container{
+        display: flex;
+        gap: 15px;
+        margin: 5px;
+      }
+
+      .what-i-do {
+        text-align: center;
+        margin: 20px;
+        font-weight: bold;
+        font-family:Arial, Helvetica, sans-serif ;
+        color: orange;
+        font-style: oblique;
+        font-size: 20px;
+
+      }
+      .child-1 {
+        background-color: orange;
+        flex-wrap: wrap;
+        border-radius: 15px;
+        padding: 0 10px;
+        flex-wrap: wrap;
+      }
+
+      .words {
+        text-align: center;
+        color: #1A3073;
+      }
+
+
+      img {
+        height: 200px;
+        float: left;
+      }
+
+      .bold {
+        font-weight: bold;
+        font-size: 20px;
+        font-style: oblique;
+        font-family:Arial, Helvetica, sans-serif ;
+        color: orange;
+      }
+      .main {
+        width: 100;
+        height: 100;
+        justify-content: center;
+
+      }
+      .main-1 {
+        margin: 20px;
+        background-color: #1A3073;
+        border-radius: 15px;
+        padding: 200px 20px;
+      }
+
+
+
+      @media (min-width: 219px) and (max-width: 480px) {
+        h2 {
+        margin: 10px;
+        font-size: 2rem;
+      }
+      .name {
+        margin: 10px;
+        font-size: 30px;
+      }
+      .about {
+        margin: 10px;
+        font-size: 20px;
+      }
+      p {
+        font-size: 1rem;
+      }
+      .box-container{
+        gap: 15px;
+        margin: 5px;
+        flex-wrap: wrap;
+      }
+    }
+
+
+        
+    </style>
+</head>
+<body>
+      <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./mywork.html">Gallery</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        
+    <h1>WELCOME TO MY <span class="yellow">PORTFOPLIO</span></h1>
+       <div class="main-1">
+        <h2>Hi, I'm </h2>
+       <p class="name">ELEMIDE DANIEL</p>
+       <p class="about">I'm a Web Developer and also an Illustrator</p>
+    </div>
+    </div>
+       <div class="first-container">
+        <img src="./images/man-9031574_1280.png">
+       <p class="bold">About Me</p><hr>
+       <P>Hi, I’m ELEMIDE DANIEL, a passionate Front-End Web Developer and Illustrator with a strong focus on creating intuitive, visually appealing user experiences. With a deep love for both technology and art, I bridge the gap between design and development, crafting websites that are not only functional but also beautifully designed.</p>
+        <P class="bold">My Journey</P> <hr>
+            <P>I began my journey in web development with a fascination for how the digital world comes together. Over the years, I’ve honed my skills in front-end technologies like HTML5, CSS3, JavaScript, and modern frameworks such as React and Vue.js. I enjoy solving complex challenges with clean, efficient code while keeping user experience (UX) at the forefront.
+            
+            Parallel to my coding career, I’ve always had a creative streak. As an Illustrator, I’ve developed a keen eye for design and composition. Whether it’s crafting custom icons, illustrations, or user interfaces, my design work is all about adding that personal touch that elevates the visual experience of a website.
+            </P>
+        
+    
+    <div class="container">
+        <p class="what-i-do">What I Do</p>
+        <div class="box-container">
+        <div class="child-1">
+            <p class="words">Front-End Web Development:</p>
+            <p>I specialize in building responsive, accessible, and performance-optimized websites using the latest web technologies. My skills include HTML5, CSS3, JavaScript </p>
+        </div>
+        <div class="child-1">
+            <p class="words">Illustration</p>
+            <p>As an illustrator, I bring visual concepts to life. I create custom illustrations, icons, and design assets that enhance user interfaces and create a memorable experience. I’m proficient in tools like Adobe Illustrator, Photoshop, </p>
+        </div>
+        <div class="child-1">
+            <p class="words">Responsive Web Design</p>
+            <p>I ensure all my websites look great and work flawlessly on any device. I implement mobile-first designs, ensuring the best user experience on desktops, tablets, and smartphones.</p>
+        </div>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
